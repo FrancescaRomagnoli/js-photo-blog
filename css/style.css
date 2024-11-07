@@ -33,8 +33,12 @@ li {
   max-width: 100%;
 }
 
-.uppercase {
+.text-uppercase {
   text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
 }
 
 .playwrite-200 {
@@ -85,7 +89,7 @@ li {
 
   /* $ debug */
 
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   /* background-color: #e27396ff; */
 }
 
@@ -96,16 +100,16 @@ li {
   background-color: #ececec;
 
   /* $ debug */
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .card-img {
   /* $ debug */
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   /* background-color: #ff7d00ff; */
 }
 
-.card-txt {
+.card-title {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   font-size: 0.8rem;
