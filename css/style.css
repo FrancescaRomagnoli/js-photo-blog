@@ -60,6 +60,7 @@ li {
   height: 130px;
 
   background-image: url("../img/wall.png");
+  background-size: 250px;
 }
 
 .header .container {
@@ -77,7 +78,7 @@ li {
 
 .main {
   background-image: url("../img/cork.png");
-  height: 100vh;
+  background-size: 500px;
 }
 
 .card-container {
@@ -102,6 +103,7 @@ li {
   position: relative;
   /* $ debug */
   /* border: 1px dashed black; */
+  box-shadow: 4px 4px 5px #00000075;
 }
 
 .float-pin {
