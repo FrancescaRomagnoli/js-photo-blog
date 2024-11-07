@@ -3,6 +3,9 @@
 const cardImg = document.querySelectorAll(".card-img");
 const cardTitle = document.querySelectorAll(".card-title");
 
+const overlay = document.getElementById("overlay");
+const closeIcon = document.getElementById("close-icon");
+
 // console.log(typeof cardImg, cardImg);
 // console.log(typeof cardTitle, cardTitle);
 
@@ -34,3 +37,13 @@ fetch("https://jsonplaceholder.typicode.com/photos?_limit=6")
     // console.log(typeof cardImgUrl, cardImgUrl);
     // console.log(typeof cardTitleText, cardTitleText);
   });
+
+cardImg.forEach((cardImg) => {
+  cardImg.addEventListener("click", () => {
+    overlay.classList.remove("d-none");
+  });
+});
+
+closeIcon.addEventListener("click", () => {
+  overlay.classList.add("d-none");
+});

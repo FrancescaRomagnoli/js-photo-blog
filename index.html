@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" href="./img/raccoon-logo.webp" />
+    <!-- # font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- # google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +24,16 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- # overlay -->
+    <div class="overlay d-none" id="overlay">
+      <div class="overlay-container">
+        <div id="close-icon">
+          <i class="fa-solid fa-xmark fa-2xl"></i>
+        </div>
+        <img class="img-big" src="./img/temp.jpeg" alt="a really cute frog" />
+      </div>
+    </div>
+
     <!-- # header -->
     <header class="header">
       <div class="container">
@@ -24,6 +42,7 @@
         </h1>
       </div>
     </header>
+
     <!-- # main -->
     <main class="main">
       <div class="container">
