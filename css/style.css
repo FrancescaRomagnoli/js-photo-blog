@@ -29,7 +29,7 @@ li {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 1300px;
   max-width: 100%;
 }
 
@@ -48,4 +48,69 @@ li {
   font-family: "Mali", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+/* # header */
+
+.header {
+  height: 130px;
+
+  background-image: url("../img/wall.png");
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-title {
+  font-size: 4rem;
+}
+
+/* # main */
+
+.main {
+  background-image: url("../img/cork.png");
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  padding: 3rem 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* $ debug */
+
+  border: 1px dashed black;
+  /* background-color: #e27396ff; */
+}
+
+.card {
+  padding: 15px;
+  width: 350px;
+
+  background-color: #ececec;
+
+  /* $ debug */
+  border: 1px dashed black;
+}
+
+.card-img {
+  /* $ debug */
+  border: 1px dashed black;
+  /* background-color: #ff7d00ff; */
+}
+
+.card-txt {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.8rem;
+
+  /* $ debug */
+  /* border: 1px dashed black;
+  background-color: #ffb400ff; */
 }
