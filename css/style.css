@@ -99,8 +99,15 @@ li {
 
   background-color: #ececec;
 
+  position: relative;
   /* $ debug */
   /* border: 1px dashed black; */
+}
+
+.float-pin {
+  position: absolute;
+  left: 157px;
+  top: -10px;
 }
 
 .card-img {

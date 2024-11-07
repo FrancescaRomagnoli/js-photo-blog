@@ -17,7 +17,7 @@ fetch("https://jsonplaceholder.typicode.com/photos?_limit=6")
   .then((response) => response.json())
   .then((data) => {
     objList = data;
-    console.log(objList);
+    // console.log(objList);
 
     objList.forEach((object) => {
       cardImgUrl.push(object.url);
