@@ -104,10 +104,19 @@ li {
 
   background-color: #ececec;
 
+  cursor: pointer;
+
+  transition: transform 0.3s;
+
   position: relative;
   /* $ debug */
   /* border: 1px dashed black; */
   box-shadow: 4px 4px 5px #00000075;
+}
+
+.card:hover {
+  transform: scale(1.1) rotate(5deg);
+  z-index: 1;
 }
 
 .float-pin {
@@ -138,11 +147,13 @@ li {
 }
 
 .overlay-container {
-  position: absolute;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.85);
-  z-index: 1;
-  height: 100vh;
-  width: 100vw;
+  z-index: 2;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
