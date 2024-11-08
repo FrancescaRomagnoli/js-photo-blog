@@ -117,12 +117,17 @@ li {
 .card:hover {
   transform: scale(1.1) rotate(10deg);
   z-index: 1;
+  box-shadow: 6px 6px 7px #00000080;
 }
 
 .float-pin {
   position: absolute;
   left: 157px;
   top: -10px;
+}
+
+.card:hover .float-pin {
+  display: none;
 }
 
 .card-img {
